@@ -8,6 +8,8 @@
 
 #import "MainController.h"
 #import "MainCell.h"
+#import <LocalAuthentication/LocalAuthentication.h>//指纹解锁用
+
 
 #import "DrawerVC.h"
 #import "TitlePageViewVC.h"
@@ -15,6 +17,8 @@
 #import "MyFlowlayoutVC.h"
 #import "LargeImageNanigation.h"
 #import "MyBlockVC.h"
+#import "CoreLockVC.h"
+#import "AnimationVC.h"
 @interface MainController ()<UICollectionViewDelegateFlowLayout,UICollectionViewDataSource,UICollectionViewDelegate>
 
 @property(nonatomic,strong) UICollectionView *collectionView;
@@ -34,9 +38,13 @@
     [self initCollectionView];
 }
 
+
+
+
+
 - (void)initData {
     self.dataArray = [[NSMutableArray alloc]init];
-    self.dataArray = @[@"抽屉模型",@"滑动视图",@"页面出现动画",@"重写flowlayout",@"下拉导航栏",@"block"].mutableCopy;
+    self.dataArray = @[@"抽屉模型",@"滑动视图",@"页面出现动画",@"重写flowlayout",@"下拉导航栏",@"block",@"图案解锁",@"基本动画"].mutableCopy;
 }
 
 
@@ -92,6 +100,14 @@
         case 5:{
             MyBlockVC *vc = [[MyBlockVC alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
+        }break;
+        case 6:{
+            CoreLockVC *vc = [[CoreLockVC alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }break;
+        case 7:{
+            AnimationVC *vc = [[AnimationVC alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
         }
         default:
             break;
@@ -108,7 +124,30 @@
 
 
 
-
+//typedef NS_ENUM(NSInteger, LAError)
+//{
+//    //授权失败
+//    LAErrorAuthenticationFailed = kLAErrorAuthenticationFailed,
+//
+//    //用户取消Touch ID授权
+//    LAErrorUserCancel           = kLAErrorUserCancel,
+//
+//    //用户选择输入密码
+//    LAErrorUserFallback         = kLAErrorUserFallback,
+//
+//    //系统取消授权(例如其他APP切入)
+//    LAErrorSystemCancel         = kLAErrorSystemCancel,
+//
+//    //系统未设置密码
+//    LAErrorPasscodeNotSet       = kLAErrorPasscodeNotSet,
+//
+//    //设备Touch ID不可用，例如未打开
+//
+//    LAErrorTouchIDNotAvailable  = kLAErrorTouchIDNotAvailable,
+//
+//    //设备Touch ID不可用，用户未录入
+//    LAErrorTouchIDNotEnrolled   = kLAErrorTouchIDNotEnrolled,
+//} NS_ENUM_AVAILABLE(10_10, 8_0);
 
 
 

@@ -30,7 +30,6 @@
 		7A4B13701DC9C87C0054EC7D /* AnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B136F1DC9C87C0054EC7D /* AnimationDelegate.m */; };
 		7A4B13731DC9D0560054EC7D /* MyPresentationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B13721DC9D0560054EC7D /* MyPresentationVC.m */; };
 		7A4B13761DC9DC7B0054EC7D /* MyAnimateRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B13751DC9DC7B0054EC7D /* MyAnimateRootVC.m */; };
-		7A4BC2DB1DD0586100A413BF /* ChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4BC2DA1DD0586100A413BF /* ChangeView.m */; };
 		7A60DFA51DCD899800863DE4 /* MyBlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60DFA41DCD899800863DE4 /* MyBlockVC.m */; };
 		7A60DFA81DCDAD6400863DE4 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60DFA71DCDAD6400863DE4 /* Ball.m */; };
 		7A60DFAB1DCDAEFC00863DE4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60DFAA1DCDAEFC00863DE4 /* RootViewController.m */; };
@@ -41,6 +40,10 @@
 		7A84223E1DCAD92D001F8A88 /* MyFlowlayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A84223D1DCAD92D001F8A88 /* MyFlowlayoutVC.m */; };
 		7A8422411DCAD9CD001F8A88 /* YGZ_FlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8422401DCAD9CD001F8A88 /* YGZ_FlowLayout.m */; };
 		7A8422441DCADA59001F8A88 /* test4Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8422431DCADA59001F8A88 /* test4Cell.m */; };
+		7A87B3A71DD4147100BEB84F /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A87B3A61DD4147100BEB84F /* LocalAuthentication.framework */; };
+		7A87B3AB1DD41E1D00BEB84F /* CoreLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A87B3AA1DD41E1D00BEB84F /* CoreLockVC.m */; };
+		7A87B3AE1DD4455F00BEB84F /* CoreLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A87B3AD1DD4455F00BEB84F /* CoreLockView.m */; };
+		7A87B3B21DD4635000BEB84F /* AnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A87B3B11DD4635000BEB84F /* AnimationVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,8 +111,6 @@
 		7A4B13721DC9D0560054EC7D /* MyPresentationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPresentationVC.m; sourceTree = "<group>"; };
 		7A4B13741DC9DC7B0054EC7D /* MyAnimateRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnimateRootVC.h; sourceTree = "<group>"; };
 		7A4B13751DC9DC7B0054EC7D /* MyAnimateRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnimateRootVC.m; sourceTree = "<group>"; };
-		7A4BC2D91DD0586100A413BF /* ChangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeView.h; sourceTree = "<group>"; };
-		7A4BC2DA1DD0586100A413BF /* ChangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeView.m; sourceTree = "<group>"; };
 		7A60DFA31DCD899800863DE4 /* MyBlockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBlockVC.h; sourceTree = "<group>"; };
 		7A60DFA41DCD899800863DE4 /* MyBlockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBlockVC.m; sourceTree = "<group>"; };
 		7A60DFA61DCDAD6400863DE4 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
@@ -129,6 +130,13 @@
 		7A8422401DCAD9CD001F8A88 /* YGZ_FlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGZ_FlowLayout.m; sourceTree = "<group>"; };
 		7A8422421DCADA59001F8A88 /* test4Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test4Cell.h; sourceTree = "<group>"; };
 		7A8422431DCADA59001F8A88 /* test4Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test4Cell.m; sourceTree = "<group>"; };
+		7A87B3A61DD4147100BEB84F /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		7A87B3A91DD41E1D00BEB84F /* CoreLockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLockVC.h; sourceTree = "<group>"; };
+		7A87B3AA1DD41E1D00BEB84F /* CoreLockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLockVC.m; sourceTree = "<group>"; };
+		7A87B3AC1DD4455F00BEB84F /* CoreLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLockView.h; sourceTree = "<group>"; };
+		7A87B3AD1DD4455F00BEB84F /* CoreLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLockView.m; sourceTree = "<group>"; };
+		7A87B3B01DD4635000BEB84F /* AnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationVC.h; sourceTree = "<group>"; };
+		7A87B3B11DD4635000BEB84F /* AnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A87B3A71DD4147100BEB84F /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +172,7 @@
 				7A4408201DC1D6A9002FA023 /* MyDemoTests */,
 				7A44082B1DC1D6A9002FA023 /* MyDemoUITests */,
 				7A4408051DC1D6A9002FA023 /* Products */,
+				7A87B3A51DD4147100BEB84F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,6 +189,8 @@
 		7A4408061DC1D6A9002FA023 /* MyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7A87B3AF1DD4632C00BEB84F /* 动画 */,
+				7A87B3A81DD41DEE00BEB84F /* 图案解锁 */,
 				7A60DFA21DCD897500863DE4 /* block */,
 				7A7657831DCC1F8900070549 /* 导航栏透明 */,
 				7A44084D1DC1E557002FA023 /* 类别辅助 */,
@@ -288,8 +300,6 @@
 				7A60DFAD1DCDB10100863DE4 /* BlockVC1.m */,
 				7A60DFA61DCDAD6400863DE4 /* Ball.h */,
 				7A60DFA71DCDAD6400863DE4 /* Ball.m */,
-				7A4BC2D91DD0586100A413BF /* ChangeView.h */,
-				7A4BC2DA1DD0586100A413BF /* ChangeView.m */,
 			);
 			name = block;
 			sourceTree = "<group>";
@@ -332,6 +342,34 @@
 				7A8422431DCADA59001F8A88 /* test4Cell.m */,
 			);
 			name = "重写flowlayout";
+			sourceTree = "<group>";
+		};
+		7A87B3A51DD4147100BEB84F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A87B3A61DD4147100BEB84F /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A87B3A81DD41DEE00BEB84F /* 图案解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				7A87B3A91DD41E1D00BEB84F /* CoreLockVC.h */,
+				7A87B3AA1DD41E1D00BEB84F /* CoreLockVC.m */,
+				7A87B3AC1DD4455F00BEB84F /* CoreLockView.h */,
+				7A87B3AD1DD4455F00BEB84F /* CoreLockView.m */,
+			);
+			name = "图案解锁";
+			sourceTree = "<group>";
+		};
+		7A87B3AF1DD4632C00BEB84F /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				7A87B3B01DD4635000BEB84F /* AnimationVC.h */,
+				7A87B3B11DD4635000BEB84F /* AnimationVC.m */,
+			);
+			name = "动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,15 +514,18 @@
 				7A7657861DCC1FDB00070549 /* LargeImageNanigation.m in Sources */,
 				7A44080C1DC1D6A9002FA023 /* AppDelegate.m in Sources */,
 				7A4B13731DC9D0560054EC7D /* MyPresentationVC.m in Sources */,
+				7A87B3B21DD4635000BEB84F /* AnimationVC.m in Sources */,
 				7A4B13661DC987650054EC7D /* TitlePageVC1.m in Sources */,
 				7A4408491DC1DB98002FA023 /* DrawerCenterVC.m in Sources */,
 				7A4408501DC1E56D002FA023 /* UIView+Extensions.m in Sources */,
 				7A4B13591DC9862E0054EC7D /* TitlePageView.m in Sources */,
 				7A44083C1DC1D720002FA023 /* MainController.m in Sources */,
 				7A60DFAB1DCDAEFC00863DE4 /* RootViewController.m in Sources */,
+				7A87B3AB1DD41E1D00BEB84F /* CoreLockVC.m in Sources */,
 				7A44083F1DC1D8BE002FA023 /* MainCell.m in Sources */,
 				7A4408091DC1D6A9002FA023 /* main.m in Sources */,
 				7A8422411DCAD9CD001F8A88 /* YGZ_FlowLayout.m in Sources */,
+				7A87B3AE1DD4455F00BEB84F /* CoreLockView.m in Sources */,
 				7A4B13701DC9C87C0054EC7D /* AnimationDelegate.m in Sources */,
 				7A60DFAE1DCDB10100863DE4 /* BlockVC1.m in Sources */,
 				7A4B13631DC9872A0054EC7D /* TitlePageViewVC.m in Sources */,
@@ -495,7 +536,6 @@
 				7A4B13601DC986F20054EC7D /* UIColor+Hex.m in Sources */,
 				7A4408431DC1DB23002FA023 /* DrawerVC.m in Sources */,
 				7A76578B1DCC3A0900070549 /* CopyTBGoodsDetailVC.m in Sources */,
-				7A4BC2DB1DD0586100A413BF /* ChangeView.m in Sources */,
 				7A4B13761DC9DC7B0054EC7D /* MyAnimateRootVC.m in Sources */,
 				7A8422441DCADA59001F8A88 /* test4Cell.m in Sources */,
 				7A4B135D1DC9868D0054EC7D /* TitleViewStyle.m in Sources */,
