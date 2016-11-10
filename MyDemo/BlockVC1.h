@@ -7,25 +7,31 @@
 //
 
 #import "RootViewController.h"
+#import "MyBlockVC.h"
+
+@protocol BlockVC1Delegate <NSObject>
+
+- (void)testWith:(NSString *)string;
+
+@end
+
 
 typedef void (^ReturnTextBlock)(NSString *testString);
 
-@interface BlockVC1 : RootViewController
+typedef void (^requestSuccess)(id obj);
+
+typedef void (^requestFaild)(id obj);
+
+@interface BlockVC1 : RootViewController<MyBlockVCDelegate>
 
 @property(nonatomic,copy) ReturnTextBlock returnTextblock;
 
 - (void)returnText:(ReturnTextBlock)block;
 
+- (void)testWithSuccess:(requestSuccess)success faild:(requestFaild)faild;
 
 
-
-//test
-
-
-
-
-
-
+@property(nonatomic,assign) id<BlockVC1Delegate> delegate;
 
 
 

@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol MyBlockVCDelegate <NSObject>
+
+- (UIView *)todosomething;
+
+@end
+
 
 @interface MyBlockVC : UIViewController
+
+
+@property(nonatomic,assign) id<MyBlockVCDelegate> delegate;
 
 @end

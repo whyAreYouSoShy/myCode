@@ -30,6 +30,7 @@
 		7A4B13701DC9C87C0054EC7D /* AnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B136F1DC9C87C0054EC7D /* AnimationDelegate.m */; };
 		7A4B13731DC9D0560054EC7D /* MyPresentationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B13721DC9D0560054EC7D /* MyPresentationVC.m */; };
 		7A4B13761DC9DC7B0054EC7D /* MyAnimateRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B13751DC9DC7B0054EC7D /* MyAnimateRootVC.m */; };
+		7A4BC2DB1DD0586100A413BF /* ChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4BC2DA1DD0586100A413BF /* ChangeView.m */; };
 		7A60DFA51DCD899800863DE4 /* MyBlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60DFA41DCD899800863DE4 /* MyBlockVC.m */; };
 		7A60DFA81DCDAD6400863DE4 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60DFA71DCDAD6400863DE4 /* Ball.m */; };
 		7A60DFAB1DCDAEFC00863DE4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60DFAA1DCDAEFC00863DE4 /* RootViewController.m */; };
@@ -107,6 +108,8 @@
 		7A4B13721DC9D0560054EC7D /* MyPresentationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPresentationVC.m; sourceTree = "<group>"; };
 		7A4B13741DC9DC7B0054EC7D /* MyAnimateRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnimateRootVC.h; sourceTree = "<group>"; };
 		7A4B13751DC9DC7B0054EC7D /* MyAnimateRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnimateRootVC.m; sourceTree = "<group>"; };
+		7A4BC2D91DD0586100A413BF /* ChangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeView.h; sourceTree = "<group>"; };
+		7A4BC2DA1DD0586100A413BF /* ChangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeView.m; sourceTree = "<group>"; };
 		7A60DFA31DCD899800863DE4 /* MyBlockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBlockVC.h; sourceTree = "<group>"; };
 		7A60DFA41DCD899800863DE4 /* MyBlockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBlockVC.m; sourceTree = "<group>"; };
 		7A60DFA61DCDAD6400863DE4 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
@@ -285,6 +288,8 @@
 				7A60DFAD1DCDB10100863DE4 /* BlockVC1.m */,
 				7A60DFA61DCDAD6400863DE4 /* Ball.h */,
 				7A60DFA71DCDAD6400863DE4 /* Ball.m */,
+				7A4BC2D91DD0586100A413BF /* ChangeView.h */,
+				7A4BC2DA1DD0586100A413BF /* ChangeView.m */,
 			);
 			name = block;
 			sourceTree = "<group>";
@@ -490,6 +495,7 @@
 				7A4B13601DC986F20054EC7D /* UIColor+Hex.m in Sources */,
 				7A4408431DC1DB23002FA023 /* DrawerVC.m in Sources */,
 				7A76578B1DCC3A0900070549 /* CopyTBGoodsDetailVC.m in Sources */,
+				7A4BC2DB1DD0586100A413BF /* ChangeView.m in Sources */,
 				7A4B13761DC9DC7B0054EC7D /* MyAnimateRootVC.m in Sources */,
 				7A8422441DCADA59001F8A88 /* test4Cell.m in Sources */,
 				7A4B135D1DC9868D0054EC7D /* TitleViewStyle.m in Sources */,

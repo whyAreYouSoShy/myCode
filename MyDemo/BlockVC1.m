@@ -8,7 +8,9 @@
 
 #import "BlockVC1.h"
 
-@interface BlockVC1 ()
+#import "MyBlockVC.h"
+
+@interface BlockVC1 ()<MyBlockVCDelegate>
 
 @end
 
@@ -28,12 +30,30 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    if (self.delegate && [self.delegate respondsToSelector:@selector(testWith:)]) {
+        [self.delegate testWith:@"page2Delegate"];
+    }
+    
     if (self.returnTextblock) {
         self.returnTextblock(@"yeguizhong");
     }
     [self.navigationController popViewControllerAnimated:YES];
     
     
+}
+
+- (void)testWithSuccess:(requestSuccess)success faild:(requestFaild)faild {
+    success(@3);
+    faild(@"faild");
+}
+
+
+
+- (UIView *)todosomething {
+    UIView *view = [[UIView alloc]init];
+    view.backgroundColor = [UIColor redColor];
+    return view;
 }
 
 
