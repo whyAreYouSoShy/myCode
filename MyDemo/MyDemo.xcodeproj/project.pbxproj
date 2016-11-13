@@ -136,7 +136,7 @@
 		7A87B3AC1DD4455F00BEB84F /* CoreLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLockView.h; sourceTree = "<group>"; };
 		7A87B3AD1DD4455F00BEB84F /* CoreLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLockView.m; sourceTree = "<group>"; };
 		7A87B3B01DD4635000BEB84F /* AnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationVC.h; sourceTree = "<group>"; };
-		7A87B3B11DD4635000BEB84F /* AnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationVC.m; sourceTree = "<group>"; };
+		7A87B3B11DD4635000BEB84F /* AnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AnimationVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
