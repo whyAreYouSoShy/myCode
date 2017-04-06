@@ -20,7 +20,7 @@
 #import "CoreLockVC.h"
 #import "AnimationVC.h"
 #import "BasicRunTimeVC.h"
-
+#import "LoadAnimationVC.h"
 #import "CollectionViewPlugVC.h"
 
 @interface MainController ()<UICollectionViewDelegateFlowLayout,UICollectionViewDataSource,UICollectionViewDelegate>
@@ -48,7 +48,7 @@
 
 - (void)initData {
     self.dataArray = [[NSMutableArray alloc]init];
-    self.dataArray = @[@"抽屉模型",@"滑动视图",@"页面出现动画",@"重写flowlayout",@"下拉导航栏",@"block",@"图案解锁",@"基本动画",@"basicRunTime",@"collectionview下拉"].mutableCopy;
+    self.dataArray = @[@"抽屉模型",@"滑动视图",@"页面出现动画",@"重写flowlayout",@"下拉导航栏",@"block",@"图案解锁",@"基本动画",@"basicRunTime",@"collectionview下拉",@"加载小动画"].mutableCopy;
 }
 
 
@@ -117,6 +117,9 @@
             [self.navigationController pushViewController:vc animated:YES];
         }case 9: {
             CollectionViewPlugVC *vc = [[CollectionViewPlugVC alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }case 10: {
+            LoadAnimationVC *vc = [[LoadAnimationVC alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
         default:

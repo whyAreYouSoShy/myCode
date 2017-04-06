@@ -12,6 +12,8 @@
 		440BC33E1DD8B62A008A1E76 /* BasicRunTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 440BC33D1DD8B62A008A1E76 /* BasicRunTimeVC.m */; };
 		440BC3411DD8B6F3008A1E76 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 440BC3401DD8B6F3008A1E76 /* Person.m */; };
 		440BC3471DD8BCBF008A1E76 /* UIFont+MyFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 440BC3461DD8BCBF008A1E76 /* UIFont+MyFont.m */; };
+		449F5A541E963B7E0071757B /* BGimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 449F5A531E963B7E0071757B /* BGimage.jpg */; };
+		449F5A581E963C030071757B /* LoadAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F5A571E963C030071757B /* LoadAnimationVC.m */; };
 		7A4408091DC1D6A9002FA023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4408081DC1D6A9002FA023 /* main.m */; };
 		7A44080C1DC1D6A9002FA023 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A44080B1DC1D6A9002FA023 /* AppDelegate.m */; };
 		7A4408121DC1D6A9002FA023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4408101DC1D6A9002FA023 /* Main.storyboard */; };
@@ -79,6 +81,9 @@
 		440BC3401DD8B6F3008A1E76 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		440BC3451DD8BCBF008A1E76 /* UIFont+MyFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MyFont.h"; sourceTree = "<group>"; };
 		440BC3461DD8BCBF008A1E76 /* UIFont+MyFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MyFont.m"; sourceTree = "<group>"; };
+		449F5A531E963B7E0071757B /* BGimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BGimage.jpg; sourceTree = "<group>"; };
+		449F5A561E963C030071757B /* LoadAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadAnimationVC.h; sourceTree = "<group>"; };
+		449F5A571E963C030071757B /* LoadAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadAnimationVC.m; sourceTree = "<group>"; };
 		7A4408041DC1D6A9002FA023 /* MyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4408081DC1D6A9002FA023 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A44080A1DC1D6A9002FA023 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -204,6 +209,15 @@
 			name = "runtime基础定时器demo";
 			sourceTree = "<group>";
 		};
+		449F5A551E963BE50071757B /* 加载小动画 */ = {
+			isa = PBXGroup;
+			children = (
+				449F5A561E963C030071757B /* LoadAnimationVC.h */,
+				449F5A571E963C030071757B /* LoadAnimationVC.m */,
+			);
+			name = "加载小动画";
+			sourceTree = "<group>";
+		};
 		7A4407FB1DC1D6A9002FA023 = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +242,7 @@
 		7A4408061DC1D6A9002FA023 /* MyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				449F5A551E963BE50071757B /* 加载小动画 */,
 				4408A3241E06812200589CAE /* 公司用的demo */,
 				440BC33B1DD8B5FB008A1E76 /* runtime基础定时器demo */,
 				7A87B3AF1DD4632C00BEB84F /* 动画 */,
@@ -367,6 +382,7 @@
 				7A7657851DCC1FDB00070549 /* LargeImageNanigation.m */,
 				7A7657891DCC3A0900070549 /* CopyTBGoodsDetailVC.h */,
 				7A76578A1DCC3A0900070549 /* CopyTBGoodsDetailVC.m */,
+				449F5A531E963B7E0071757B /* BGimage.jpg */,
 				7A7657871DCC228000070549 /* BGimage.jpg */,
 			);
 			name = "导航栏透明";
@@ -525,6 +541,7 @@
 				7A4408171DC1D6A9002FA023 /* LaunchScreen.storyboard in Resources */,
 				7A4408141DC1D6A9002FA023 /* Assets.xcassets in Resources */,
 				7A7657881DCC228000070549 /* BGimage.jpg in Resources */,
+				449F5A541E963B7E0071757B /* BGimage.jpg in Resources */,
 				7A4408121DC1D6A9002FA023 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,6 +592,7 @@
 				7A60DFA81DCDAD6400863DE4 /* Ball.m in Sources */,
 				7A4B136D1DC9C24A0054EC7D /* ViewAppearVC1.m in Sources */,
 				7A4408461DC1DB84002FA023 /* DrawerLeftVC.m in Sources */,
+				449F5A581E963C030071757B /* LoadAnimationVC.m in Sources */,
 				7A84223E1DCAD92D001F8A88 /* MyFlowlayoutVC.m in Sources */,
 				7A4B13601DC986F20054EC7D /* UIColor+Hex.m in Sources */,
 				7A4408431DC1DB23002FA023 /* DrawerVC.m in Sources */,
